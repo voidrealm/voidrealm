@@ -36,9 +36,11 @@
 
 					// Images (in the format of 'url': 'alignment').
 						images: {
-							'images/bg01.jpg': 'center',
-							'images/bg02.jpg': 'center',
-							'images/bg03.jpg': 'center'
+							‘images/Palm-Design_White.png’: 'center',
+							‘images/dennis-rochel-730217-unsplash.jpg’: 'center'
+							//‘images/bg01.jpg': 'center',
+							//‘images/bg02.jpg': 'center',
+							//‘images/bg03.jpg': 'center'
 						},
 
 					// Delay.
