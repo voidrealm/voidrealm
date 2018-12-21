@@ -36,7 +36,7 @@ Signup Form:
 Slideshow Background:
 
 	This is pretty straightforward, but there are two JS settings you'll want to be aware of
-	(found under "Slideshow Background" in assets/js/main.js):
+	(found under "Slideshow Background" in assets/js/main.js): 
 
 	images
 
