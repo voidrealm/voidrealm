@@ -108,8 +108,11 @@
 
 			// Vars.
 				var $form = document.querySelectorAll('#signup-form')[0],
+					url = 'https://script.google.com/macros/s/AKfycby6aI-bqp10bVrJD4EFqEBqvjWBFighP8rpiI1YlfahOe_xkj8/exec',
 					$submit = document.querySelectorAll('#signup-form input[type="submit"]')[0],
 					$message;
+
+				const scriptURL = 'https://script.google.com/macros/s/AKfycby6aI-bqp10bVrJD4EFqEBqvjWBFighP8rpiI1YlfahOe_xkj8/exec'
 
 			// Bail if addEventListener isn't supported.
 				if (!('addEventListener' in $form))
@@ -149,6 +152,15 @@
 					// Disable submit.
 						$submit.disabled = true;
 
+					/*var jqxhr = $.ajax({
+    					url: url,
+    					method: "GET",
+    					dataType: "json",
+    					data: $form.serializeObject()
+  					}).success(
+    					// do something
+  					);*/
+
 					// Process form.
 					// Note: Doesn't actually do anything yet (other than report back with a "thank you"),
 					// but there's enough here to piece together a working AJAX submission call that does.
@@ -159,6 +171,10 @@
 
 							// Enable submit.
 								$submit.disabled = false;
+
+								fetch(scriptURL, { method: 'POST', body: new FormData($form)})
+      								.then(response => console.log('Success!', response))
+      								.catch(error => console.error('Error!', error.message))
 
 							// Show message.
 								$message._show('success', 'Thank you!');
