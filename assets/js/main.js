@@ -108,7 +108,7 @@
 
 			// Vars.
 				var $form = document.forms['signup-form'],
-					url = 'https://script.google.com/macros/s/AKfycbyZV0vUQQ_lPKsQU6k4tUt3nWmQCj8WAT9bhyp4/exec',
+					//url = 'https://script.google.com/macros/s/AKfycbyZV0vUQQ_lPKsQU6k4tUt3nWmQCj8WAT9bhyp4/exec',
 					$submit = document.querySelectorAll('#signup-form input[type="submit"]')[0],
 					$message;
 
