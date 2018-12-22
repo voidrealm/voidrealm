@@ -108,11 +108,11 @@
 
 			// Vars.
 				var $form = document.forms['signup-form'],
-					url = 'https://script.google.com/macros/s/AKfycby6aI-bqp10bVrJD4EFqEBqvjWBFighP8rpiI1YlfahOe_xkj8/exec',
+					url = 'https://script.google.com/macros/s/AKfycbyZV0vUQQ_lPKsQU6k4tUt3nWmQCj8WAT9bhyp4/exec',
 					$submit = document.querySelectorAll('#signup-form input[type="submit"]')[0],
 					$message;
 
-				const scriptURL = 'https://script.google.com/macros/s/AKfycby6aI-bqp10bVrJD4EFqEBqvjWBFighP8rpiI1YlfahOe_xkj8/exec'
+				const scriptURL = 'https://script.google.com/macros/s/AKfycbyZV0vUQQ_lPKsQU6k4tUt3nWmQCj8WAT9bhyp4/exec'
 
 			// Bail if addEventListener isn't supported.
 				if (!('addEventListener' in $form))
