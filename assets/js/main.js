@@ -36,8 +36,9 @@
 
 					// Images (in the format of 'url': 'alignment').
 						images: {
-							'images/Palm-Design_White.png': 'center',
-							'images/dennis-rochel-730217-unsplash.jpg': 'center'
+							//'images/Palm-Design_White.png': 'center',
+							'images/RedBlueWeb.jpg': 'center'
+							//'images/dennis-rochel-730217-unsplash.jpg': 'center'
 							//“images/bg01.jpg”: 'center',
 							//“images/bg02.jpg”: 'center',
 							//“images/bg03.jpg”: 'center'
@@ -178,7 +179,7 @@
 
 							// Show message.
 								$message._show('success', 'Thank you!');
-								//$message._show('failure', 'Something went wrong. Please try again.');
+								$message._show('failure', 'Something went wrong. Please check mobile number format and try again.');
 
 						}, 750);
 
