@@ -179,7 +179,7 @@
 
 							// Show message.
 								$message._show('success', 'Thank you!');
-								$message._show('failure', 'Something went wrong. Please check mobile number format and try again.');
+								//$message._show('failure', 'Something went wrong. Please check mobile number format and try again.');
 
 						}, 750);
 
