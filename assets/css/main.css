@@ -968,9 +968,9 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
-		background-color: #1cb495;
+		background-color: transparent;
 		border-radius: 6px;
-		border: 0;
+		border: solid 2px rgba(255, 255, 255, 0.35);
 		color: #ffffff !important;
 		cursor: pointer;
 		display: inline-block;
